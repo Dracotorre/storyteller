@@ -1,0 +1,10 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+header[role="banner"] {
+     background-image: url(/images/KandyFangsHeader.jpg);
+     background-repeat: no-repeat;
+	 background-position: center;
+	 text-align:center;
+	 height:100px;
+}
