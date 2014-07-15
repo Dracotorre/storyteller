@@ -13,6 +13,9 @@ In your Octopress directory:
 	$ git clone git://github.com/Dracotorre/storyteller.git .themes/storyteller
 	$ rake install['storyteller']
 	
+Edit your _config.yml and update the following keys:
+
+	paginate_path: "blog/posts/:num"
 
 post-header definitions
 --------------------------------
