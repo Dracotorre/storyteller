@@ -36,6 +36,9 @@
 {% if page.nextpagelink %}
 <div class="nextpage">
 	<a href="{{ page.nextpagelink }}">{% if page.nextpagename %}{{ page.nextpagename }}{% else %}➤ next page{% endif %}</a>
+	{% if page.nextpagelink2 %}
+	<br /><a href="{{ page.nextpagelink2 }}">{% if page.nextpagename2 %}{{ page.nextpagename2 }}{% else %}➤ alternate page{% endif %}</a>
+	{% endif %}
 </div>
 {% elsif page.tocmore %}
 <div class="nextpage">
